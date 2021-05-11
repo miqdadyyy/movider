@@ -1,0 +1,26 @@
+{
+  "name": "movider",
+  "version": "0.1.0",
+  "description": "API to create request to movider SMS Service",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miqdadyyy/movider.git"
+  },
+  "keywords": [
+    "movider",
+    "sms"
+  ],
+  "author": "Miqdad Farcha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miqdadyyy/movider/issues"
+  },
+  "homepage": "https://github.com/miqdadyyy/movider#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
