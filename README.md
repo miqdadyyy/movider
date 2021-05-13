@@ -96,4 +96,4 @@ If you discover any security related issues, please email miqdad.farcha@gmail.co
 - [Miqdad Farcha](https://github.com/miqdadyyy) 
 
 ## License
-license. Please see the [license file](https://github.com/miqdadyyy/movider/blob/master/LICENSE.md) for more information.
+license. Please see the [license file](https://github.com/miqdadyyy/movider/blob/master/LICENSE) for more information.
