@@ -2,7 +2,7 @@
 ![NPM](https://img.shields.io/npm/l/movider?color=red)
 ![npm](https://img.shields.io/npm/v/movider?color=blue)
 ![npm](https://img.shields.io/npm/dy/movider)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/miqdadyyy/movider/unit-test/master?color=green)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/miqdadyyy/movider/npm-publish/master?color=green)
 
 Unofficial package for Movider SMS Service
 
