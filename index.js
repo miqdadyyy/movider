@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const {URLSearchParams} = require('url');
+const {BalanceResponse, SMSResponse} = require('./model');
 
 const BASE_URL = 'https://api.movider.co/v1';
 
@@ -25,6 +26,10 @@ const Movider = class {
     encodedParams.set('api_key', this.api_key);
     encodedParams.set('api_secret', this.api_secret);
 
+    for(const key in data) {
+      encodedParams.set(key, data[key]);
+    }
+
     const options = {
       method: 'POST',
       headers: {
@@ -49,7 +54,7 @@ const Movider = class {
 
   getBalance() {
     return this._fetch('/balance')
-      .then(balance => balance);
+      .then(response => new BalanceResponse(response));
   }
 
   /**
@@ -72,6 +77,7 @@ const Movider = class {
       callback_url: options.callback.url,
       callback_method: options.callback.method
     })
+      .then(response => new SMSResponse(response, message));
   }
 }
 
