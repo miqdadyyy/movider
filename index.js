@@ -66,8 +66,8 @@ const Movider = class {
   sendSMS(to, message, options = {
     from: 'MOVIDER',
     callback: {
-      url: null,
-      method: null
+      url: '',
+      method: ''
     }
   }) {
     return this._fetch('/sms', {
